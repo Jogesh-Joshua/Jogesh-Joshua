@@ -1,6 +1,6 @@
 <div align="center">
   <!-- 1. Paste your copied image URL inside the src quotes below -->
-  <img src="https://raw.githubusercontent.com/Jogesh-Joshua/Jogesh-Joshua/a9e867961bcd2b07c8bbe8f447fc98ea489b8546/jogesh-profile.svg" alt="Jogesh Joshua" width="300" />
+  <img src="https://github.com/Jogesh-Joshua/Jogesh-Joshua/blob/main/jogesh-profile.png?raw=true" alt="Jogesh Joshua" width="300" />
   
   <br />
   
