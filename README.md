@@ -22,7 +22,7 @@
 </div>
 -->
 
-<h2 align="center"><code>~/</code> Tool Box</h2>
+<h2 align="center"><code></code> Tool Box</h2>
 
 <div align="center">
 
@@ -30,7 +30,7 @@
 
 </div>
 
-<h2 align="center"><code>~/</code> Skill Radar</h2>
+<h2 align="center"><code></code> Skill Radar</h2>
 
 <div align="center">
 
