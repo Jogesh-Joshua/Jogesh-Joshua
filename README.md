@@ -22,7 +22,7 @@
 </div>
 -->
 
-<h2 align="center"><code></code> Tool Box</h2>
+<h2 align="center"><code>~/</code> Tool Box</h2>
 
 <div align="center">
 
@@ -30,11 +30,17 @@
 
 </div>
 
-<h2 align="center"><code></code> Skill Radar</h2>
+<h2 align="center"><code>~/</code> Skill Radar</h2>
 
 <div align="center">
 
 <img src="./skill-radar.svg" alt="Skill Radar: development and design skills" width="100%"/>
+
+</div>
+
+<div align="center">
+
+<img src="./dist/snake-dark.svg" alt="Contribution snake" width="100%"/>
 
 </div>
 

@@ -1,0 +1,31 @@
+name: Generate contribution snake
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"   # refresh every 12 hours
+  workflow_dispatch:          # lets you run it manually from the Actions tab
+  push:
+    branches: [main, master]
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build snake from my contribution graph
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-dark.svg?color_snake=%23c084fc&color_dots=%231a1f2b,%23374151,%234b5563,%236b7280,%239ca3af
+
+      - name: Commit the snake image
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update contribution snake"
+          file_pattern: dist/snake-dark.svg
