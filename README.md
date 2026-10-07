@@ -10,7 +10,7 @@
 
 <!--
   GitHub stats (optional). Replace YOUR_GITHUB_USERNAME with your real GitHub username,
-  then delete this comment markers so the section shows up.
+  then remove the comment markers so the section shows up.
 
 <div align="center">
 
@@ -21,6 +21,22 @@
 
 </div>
 -->
+
+<h2 align="center"><code>~/</code> Tool Box</h2>
+
+<div align="center">
+
+<img src="./toolbox.svg" alt="Tool Box: C, C++, Python, Java, JavaScript, TypeScript, React.js, Node.js, HTML, CSS, GitHub, VS Code, Antigravity, Claude, ChatGPT, Gemini, Figma, Canva, Notion, Photoshop, CapCut, DaVinci Resolve, Premiere Pro, After Effects" width="100%"/>
+
+</div>
+
+<h2 align="center"><code>~/</code> Skill Radar</h2>
+
+<div align="center">
+
+<img src="./skill-radar.svg" alt="Skill Radar: development and design skills" width="100%"/>
+
+</div>
 
 ## About me
 
